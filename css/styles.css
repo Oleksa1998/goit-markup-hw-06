@@ -484,7 +484,32 @@ background-color: var(--accent-color);
  .footer-soc-item + .footer-soc-item {
    margin-left: 10px;
  }
+ .footer-form {
+  
+ }
+ /* .footer-email form {
 
+ } */
+ .footer-form-text {
+font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: var(--header-color);
+ }
+ .footer-form-list {
+display: flex;
+
+ }
+ .footer-form-item {
+
+ }
+ .footer-button {
+
+ }
+.footer-send-icon {
+
+}
   /*------------- Main Portfolio----------------------- */
 
  .portfolio {
@@ -642,6 +667,11 @@ justify-content: center; */
   background-color:transparent;
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
+.modal-close-btn:hover,
+.modal-close-btn:focus
+ {
+fill:var(--accent-color)
+}
 .is-hidden {
   opacity:0;
   pointer-events: none;
@@ -695,10 +725,12 @@ color: rgba(117, 117, 117, 0.5);
 margin-top: 20px;
 }
 .policy {
-font-weight: 400;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71px;
+  letter-spacing: 0.03em;
+  
+  color: #757575;
 color:var(--main-content-color);
 }
 .form-label {
@@ -707,6 +739,10 @@ font-size: 12px;
 line-height: 1.16;
 letter-spacing: 0.01em;
 color: var(--main-content-color); 
+}
+.form-label-icon {
+
+
 }
 .form-button {
   position: absolute
