@@ -748,6 +748,6 @@ color: var(--main-content-color);
   position: absolute
   display: flex;
 }
-.form-input {
-
+.input-icon {
+fill: var(--title-color);
 }
