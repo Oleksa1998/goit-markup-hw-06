@@ -50,7 +50,8 @@ input::placeholder {
   visibility: hidden;
 }
 .container {
-width: 1200px;
+/* width: 1200px; */
+width: 320px;
 padding-left: 15px;
 padding-right: 15px;
 margin: 0 auto;
@@ -229,7 +230,7 @@ background-color: var(--background-color);
   align-items: center;   
 }
 .features-list {
-  display: flex;
+  /* display: flex; */
 }
 .features-title {
 font-weight: 700;
@@ -239,6 +240,9 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--title-color);
 margin-top: 30px;
+}
+.features-item {
+  width: 100%;
 }
 .features-item:not(:last-child) {
   margin-right: 24px;
